@@ -1,2 +1,0 @@
-# thisismyhomework
-just hw
