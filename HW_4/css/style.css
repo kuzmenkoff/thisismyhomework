@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+  
+  header {
+    width: 1111px;
+    margin: auto;
+    margin-top: 42px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 38px;
+    justify-content: flex-start;
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 467px;
+}
+
+h1:first-letter {
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.navigation {
+  font-family:'Open Sans', sans-serif;
+    width: auto;
+    list-style: none;   
+    margin: 36px;
+    font-weight: 700;
+    padding: 0;
+    }
+
+.nav_par{
+    display: inline-block;
+    margin-right: 36px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+nav {
+display: inline-block;
+}
+    
+    
+
+main {
+    width: 1134px;
+    margin: auto;
+}
+
+h2 {
+font-family: 'Roboto-Black', sans-serif;
+font-size: 48px;
+color: rgba(81, 81, 81, 255);
+text-align: center;
+margin-bottom: 32px;
+}
+
+.volume_1_name:after{
+  content: '';
+  display: block;
+  width: 165px;
+  height:7px;
+  background-color: #1abc9c;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 92px;
+}
+
+.volume_2_name:after{
+  content: '';
+  display: block;
+  width: 165px;
+  height:7px;
+  background-color: #1abc9c;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 81px;
+}
+
+/*.line1 {
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: auto;
+  }*/
+
+.box {
+    height: 322px;
+    width: 255px;
+    background-color: #e9f0fd;
+    margin-right: 35px;
+    display: inline-block;
+  
+  }
+
+  .catalogue {
+      display: inline-block;
+      list-style: none;
+      margin-top: 131px;
+      flex-direction: row;
+      display: inline-block;
+  }
+
+  .pic {
+      width: 255px;
+
+  }
+
+  .product_card_1 {
+    height: 280px;
+    width: 255px;
+    background-color: #e9f0fd;
+    font-family: 'Roboto-Black', sans-serif;
+    color: white;
+    display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 70px;
+  }
+
+  .card_title {
+    background-color: #323232;
+    height: 40px;
+    width: 201px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 282px;
+  }
+
+  .card_price{
+    background-color: #8c8c8c;
+    height: 40px;
+    width: 54px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .product_card_2 {
+    height: 280px;
+    width: 255px;
+    background-color: #e9f0fd;
+    font-family: 'Roboto-Black', sans-serif;
+    color: white;
+    display: inline-block;
+    margin-right: 22px;
+  }
+
+  .product {
+    margin-bottom: 105px;
+  }
+
+  .title{
+    margin-bottom: 31px;
+  }
+  
+  .news_images { 
+    margin: auto; 
+    display: inline-block;
+  }
+
+  .news_img1 {
+    height: 262px;
+    width: 350px;
+    display: inline-block;
+  }
+
+  .news_img2 {
+    margin-left: 30px;
+    height: 261px;
+    width: 347px;
+    display: inline-block;
+  }
+
+  .news_img3 {
+    margin-left: 32px;
+    height: 265px;
+    width: 350px;
+    display: inline-block;
+  }
+
+  .news1 {
+    width: 335px;
+    height: 176px;
+    display: inline-block;
+  }
+
+  .news {
+    width: 335px;
+    height: 176px;
+    display: inline-block;
+    margin-left: 45px;
+  }
+
+  .news_title {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(85, 82, 82, 255);
+  text-align: left;
+  margin-bottom: 11px;
+  }
+
+  .volume_3_name:after{
+    content: '';
+    display: block;
+    width: 136px;
+    height:3px;
+    background-color: #1abc9c;
+    margin-left:0;
+    margin-bottom: 29px;
+  }
+
+  .news_text {
+  font-family:'Open Sans', sans-serif;
+  font-weight:400;
+  font-size: 14px;
+  color: rgba(85, 82, 82, 255);
+  text-align: left;
+  margin-bottom: 16px;
+  }
+
+  button {
+  height: 51px;
+  width: 159px;
+  background-color: #1abc9c;  
+  border-color: #1abc9c; 
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  }
+
+  button:hover {
+    background-color: whitesmoke;  
+    border-color: #1abc9c;
+    color: #1abc9c;
+  }
+
+
+
+  /* .news_button {
+    height: 51px;
+    width: 159px;
+    background-color: #1abc9c;
+  } */
+
+  
